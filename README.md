@@ -1,14 +1,14 @@
-<h1 align="center"> ⚡️ DevFolio ⚡️</h1>
+<h1 align="center"> ⚡️ Osazemen ⚡️</h1>
 
 [![Github](https://img.shields.io/github/license/anilseervi/DevFolio?color=%2312c2e9&logo=github&style=for-the-badge)](https://github.com/AnilSeervi/DevFolio/blob/master/README.md) ![Github Stars](https://img.shields.io/github/stars/anilseervi/DevFolio?color=%23c471ed&style=for-the-badge) ![Github forks](https://img.shields.io/github/forks/anilseervi/DevFolio?color=%23f64f59&style=for-the-badge) ![GitHub deployments](https://img.shields.io/github/deployments/anilseervi/DevFolio/github-pages?label=Deploy&logo=github&style=for-the-badge)
 
 ## A Modern Portfolio Template for Developers!
 
 <h2 align="center">
-  <img src="assets/devfolio.gif" alt="Devfolio" />
+  <img src="assets/devfolio.gif" alt="Osaforlio" />
 </h2>
 
-## Features
+## Features on the Portfolio
 
 ⚡️ Modern UI Design + Reveal Animations + Hover Effects\
 ⚡️ Well organized documentation\
@@ -18,21 +18,17 @@
 ⚡️ Valid HTML5 & CSS3\
 ⚡ Fast and SEO Optimized
 
-To view a demo example, **[Click Here](https://devfolio.js.org)**\
-To view a live example, **[Click Here](https://anilseervi.github.io/Portfolio/)**\
-To view live example repo, **[Click Here](https://github.com/AnilSeervi/Portfolio/)**
+## Introduction 🚀
 
-## Getting Started 🚀
-
-Here's a **Complete Guide** to walk you through the process of setting your own Portfolio Website with this minimal template on your local machine as well as hosting it on GitHub.
-
+Hello, and Welcome to my portfolio, where you can see all my personal projects and real world projects i made. it is still under development so not all my project will me displayed in there
+<!-- 
 ### Prerequisites 📋
 
 You'll need [VSCode](https://code.visualstudio.com/) and [Git](https://git-scm.com/) installed on your computer.
 
 You'll also need these two extensions [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) installed in your VSCode. You will be automatically promted to install these extensions once you open this project in VSCode.
 
----
+--- -->
 <!-- 
 ## How To Use 🔧
 
@@ -62,16 +58,16 @@ Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to Show Com
 
 ---
 
-## Template Instructions
+<!-- ## Template Instructions -->
 
-### Step 1 - STRUCTURE
+<!-- ### Step 1 - STRUCTURE -->
 
-Open [`index.html`](./index.html) and fill your information, there are 6 sections:
+<!-- Open [`index.html`](./index.html) and fill your information, there are 6 sections: -->
 
-### Head Section
+<!-- ### Head Section
 
 - Add a title to your Portfolio website within the `<title>` tag.
-- Add some keywords and description to your Portfolio website as directed in the [`index.html`](./index.html) file.
+- Add some keywords and description to your Portfolio website as directed in the [`index.html`](./index.html) file. -->
 
 ```html
 <!-- Title: add your Portfolio websites's title here -->
@@ -82,14 +78,14 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 <!-- <meta name="description" content="[Your name here] | Developer" /> -->
 ```
 
-- Remove google analytics tag before pushing it to GitHub.
+<!-- - Remove google analytics tag before pushing it to GitHub. -->
 
-### Hero Section
+<!-- ### Hero Section
 
 - On `.hero-title`, put your custom title.
 - On `.hero-cta`, put your custom button cta.
 
-```html
+```html -->
 <!-- Hero Section -->
 <!-- <div id="hero">
   <section class="container">
@@ -108,17 +104,18 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 </div> -->
 <!-- /END Hero Section -->
 ```
+```
 
-### About Section
+<!-- ### About Section -->
 <!-- 
 - On `<img>` tag, fill the `src` attribute with your profile picture, your picture must be located inside [`assets/`](./assets) folder.
   - Recommended size for your profile image is (_450 x 450px_).
 - On `<p>` tag with class-name `.about-wrapper__info-text`, include information about you, I recommend to use 2 paragraphs in order to work well and a maximum of 3 paragraphs.
 - On last `<a>` tag, include your resume url on `href` attribute. -->
-
-```html
-<!-- About Section -->
-<!-- <section id="about">
+<!-- 
+html
+ About Section
+<section id="about">
   <div class="container">
     <h2 class="section-title">About Me</h2>
     <div class="row about-wrapper">
@@ -141,8 +138,8 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 </section> -->
 <!-- /END About Section -->
 ```
-
-### Projects Section
+```
+<!-- ### Projects Section -->
 <!-- 
 - Each project lives inside `row` class.
 - On `<h3>` tag with class-name `.project-wrapper__text-title`, include your project title.
@@ -156,6 +153,7 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 - Recommended size for project image (_1366 x 767px_), your project image must live in [`assets/`](./assets) folder. You can remove the default images and replace them with yours. -->
 
 ```html
+
 <!--Projects Section-->
     <!-- <section id="projects">
       <div class="container">
@@ -218,9 +216,9 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 <!-- END Contact Section -->
 ```
 
-### Footer Section
+<!-- ### Footer Section -->
 
-- My Socail Media `<a>` links.
+<!-- - My Socail Media `<a>` links.
 
 ```html
 Footer Section
@@ -244,10 +242,10 @@ Footer Section
     </a>
   </div>
   ...
-</footer>
+</footer> -->
 <!-- END Footer Section -->
 ```
-
+```
 ### MY STYLES
 
 
@@ -261,9 +259,11 @@ Footer Section
 - [ScrollReveal.js](https://scrollrevealjs.org/) - JavaScript library
 - [Tilt.js](https://gijsroge.github.io/tilt.js/) - JavaScript tiny parallax library
 
-## Authors
+## TIP
 
-- **Anil Seervi** - [https://github.com/AnilSeervi](https://github.com/AnilSeervi)
+<!-- - **Anil Seervi** - [https://github.com/AnilSeervi](https://github.com/AnilSeervi) -->
+
+Enjoy the porfolio
 
 ## License 📄
 
