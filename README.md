@@ -33,7 +33,7 @@ You'll need [VSCode](https://code.visualstudio.com/) and [Git](https://git-scm.c
 You'll also need these two extensions [Live Preview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server) and [Live Sass Compiler](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass) installed in your VSCode. You will be automatically promted to install these extensions once you open this project in VSCode.
 
 ---
-
+<!-- 
 ## How To Use 🔧
 
 In VSCode, Open the terminal(<kbd>Ctrl</kbd>+<kbd>\\</kbd> ) and clone the DevFolio Repo.
@@ -58,7 +58,7 @@ And also open `index.html`, right click inside the file and select _Show Preview
 OR
 </h3>
 
-Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to Show Command Palette, Search for **Live Sass: Watch Sass** and turn it on. Also search for **Live Preview: Start Server** and turn it on. Doing this will watch all your Sass files for changes and will spin up a live server for you at `http://127.0.0.1:3000/`.
+Press <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> or <kbd>F1</kbd> to Show Command Palette, Search for **Live Sass: Watch Sass** and turn it on. Also search for **Live Preview: Start Server** and turn it on. Doing this will watch all your Sass files for changes and will spin up a live server for you at `http://127.0.0.1:3000/`. -->
 
 ---
 
@@ -75,11 +75,11 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 
 ```html
 <!-- Title: add your Portfolio websites's title here -->
-<title>[Your name here] | Developer</title>
+<!-- <title>[Your name here] | Developer</title> -->
 <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
-<meta name="keywords" content="[username], [name], skill" />
+<!-- <meta name="keywords" content="[username], [name], skill" /> -->
 <!-- Improve your SEO by adding a small descrption of you -->
-<meta name="description" content="[Your name here] | Developer" />
+<!-- <meta name="description" content="[Your name here] | Developer" /> -->
 ```
 
 - Remove google analytics tag before pushing it to GitHub.
@@ -91,12 +91,12 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 
 ```html
 <!-- Hero Section -->
-<div id="hero">
+<!-- <div id="hero">
   <section class="container">
     <h1 class="hero-title">
       Hi, my name is <span class="text-color-main name">Your Name</span>
       <br />
-      I'm the Unknown Developer.
+      I'm Osazemen Osawaru Odeh.
     </h1>
     <p class="hero-cta">
       <a class="cta-btn cta-btn--hero" href="#about">Get in touch</a>
@@ -105,20 +105,20 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
   <a href="#about" class="scroll-down-link" aria-label="scroll-down">
     <div class="scroll-down"></div>
   </a>
-</div>
+</div> -->
 <!-- /END Hero Section -->
 ```
 
 ### About Section
-
+<!-- 
 - On `<img>` tag, fill the `src` attribute with your profile picture, your picture must be located inside [`assets/`](./assets) folder.
   - Recommended size for your profile image is (_450 x 450px_).
 - On `<p>` tag with class-name `.about-wrapper__info-text`, include information about you, I recommend to use 2 paragraphs in order to work well and a maximum of 3 paragraphs.
-- On last `<a>` tag, include your resume url on `href` attribute.
+- On last `<a>` tag, include your resume url on `href` attribute. -->
 
 ```html
 <!-- About Section -->
-<section id="about">
+<!-- <section id="about">
   <div class="container">
     <h2 class="section-title">About Me</h2>
     <div class="row about-wrapper">
@@ -138,32 +138,32 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!-- /END About Section -->
 ```
 
 ### Projects Section
-
+<!-- 
 - Each project lives inside `row` class.
 - On `<h3>` tag with class-name `.project-wrapper__text-title`, include your project title.
 - On `<p>` tag with `loremp ipsum...` text, include your project information.
 - On first `<a>` tag, put your project url on `href` attribute.
-- On second `<a>` tag, put your project repository url on `href` attribute.
+- On second `<a>` tag, put your project repository url on `href` attribute. -->
 
 ---
 
-- Inside `<div>` tag with class-name `.project-wrapper__image`, put your project image url on the `src` of the `<img>` and put again your project url on `href` attribute of `<a>` tag.
-- Recommended size for project image (_1366 x 767px_), your project image must live in [`assets/`](./assets) folder. You can remove the default images and replace them with yours.
+<!-- - Inside `<div>` tag with class-name `.project-wrapper__image`, put your project image url on the `src` of the `<img>` and put again your project url on `href` attribute of `<a>` tag.
+- Recommended size for project image (_1366 x 767px_), your project image must live in [`assets/`](./assets) folder. You can remove the default images and replace them with yours. -->
 
 ```html
 <!--Projects Section-->
-    <section id="projects">
+    <!-- <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+          <h2 class="section-title dark-blue-text">Projects</h2> -->
 
         <!-- Each .row is a project -->
-          <div class="row">
+          <!-- <div class="row">
             <div class="project-wrapper__text">
               <h3 class="project-wrapper__text-title">Project Title</h3>
               <p class="project-wrapper__text-info">
@@ -195,37 +195,35 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
             </div>
           </div>
           ...
-          </section>
+          </section> -->
 <!-- /END Project -->
 ```
 
-### Contact Section
+<!-- ### Contact Section -->
 
-- On `<p>` tag with class-name `.contact-wrapper__text`, include some custom call-to-action message.
-- On `<a>` tag, put your email address on `href="mailto:` attribute.
+<!-- - On `<p>` tag with class-name `.contact-wrapper__text`, include some custom call-to-action message.
+- On `<a>` tag, put your email address on `href="mailto:` attribute. -->
 
 ```html
 <!-- Contact Section -->
-<section id="contact">
+<!-- <section id="contact">
   <div class="container">
     <h2 class="section-title">Contact</h2>
     <div class="contact-wrapper">
-      <p class="contact-wrapper__text">[Put your call to action here]</p>
-      <a href="mailto:" class="cta-btn cta-btn--resume">Call to Action</a>
+      <p class="contact-wrapper__text"> Just a regular self-taught developer</p>
+      <a href="mailto:" class="cta-btn cta-btn--resume"> Osazemen  - Dev</a>
     </div>
   </div>
-</section>
+</section> -->
 <!-- END Contact Section -->
 ```
 
 ### Footer Section
 
-- Put your social media link on each `<a>` links.
-- If you have more social-media accounts, see [Font Awesome Icons](https://fontawesome.com/icons) to put the corresponding additional social icon classNames.
-- You can delete or add as many `<a>` links your want.
+- My Socail Media `<a>` links.
 
 ```html
-<!-- Footer Section -->
+Footer Section
 <footer class="footer">
   ...
   <div class="social-links">
@@ -250,52 +248,12 @@ Open [`index.html`](./index.html) and fill your information, there are 6 section
 <!-- END Footer Section -->
 ```
 
-### Step 2 - STYLES
+### MY STYLES
 
-Change the color theme of the website ( choose 2 colors to create a gradient ):
 
-Go to [`style/base/_variables.scss`](./style/base/_variables.scss) and only change the values on these properties `$main-color` and `$secondary-color` to your prefered HEX color.
-
-Save the `.scss` file so that the **Live Sass Compiler** extension compiles it to `.css`.
-
-```scss
-// Default values
-$primary-color: #36d1dc;
-$secondary-color: #5b86e5;
-```
-
-**NOTE**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#Scooter)
+**GRADIANTS STYLES**: I highly recommend to checkout gradients variations on [UI Gradient](https://uigradients.com/#Scooter)
 
 ---
-
-- You can clear the README.md file and add you own readme to it.
-- Also you don't need to push the [`style`](./style) folder, so you can add [`style`](./style) to [`.gitignore`](./.gitignore) file to ignore it while pushing it to the repo.
-- Delete the file [`CNAME`](./CNAME) before you push it.
-
----
-
-## Deployment 📦
-
-- Head to your GitHub account and create a new repo. And set a new remote for our template repo.
-
-  Note: remote URL will be different.
-
-  ```bash
-  # set a new remote
-  $ git remote add origin https://github.com/user.repo.git
-  ```
-
-- Now commit all your changes with a commit message and push the code to your newly created repo.
-
-  ```bash
-  # commit changes
-  $ git commit -m 'created my portfolio'
-  # push the changes
-  $ git push -u origin master
-  ```
-
-- Refresh your repo page and head to the settings tab. Now scroll down till you see GitHub Pages. In the Source section select the branch to be master and save it!
-- Voilà your Portfolio should be live at `https://username.github.io/repoName/`
 
 ## Technologies used 🛠️
 
@@ -311,10 +269,8 @@ $secondary-color: #5b86e5;
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments 🎁
-
-I was motivated and inspired while learning [ZTM: Complete Web Developer](https://www.udemy.com/course/the-complete-web-developer-zero-to-mastery/) to create a simpler version of [simplefolio](https://github.com/cobidev/simplefolio) for those who didn't know node and packages.
-
 ---
 
 <h2 align="center">Have Fun Creating Your Own Portfolio Website.</h2>
+
+
